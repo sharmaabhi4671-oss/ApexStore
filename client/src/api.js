@@ -1,4 +1,4 @@
-const BASE = '/api';
+const BASE = 'https://apexstore-fkeb.onrender.com/api';
 
 export async function api(path, { method = 'GET', body, token } = {}) {
   const res = await fetch(BASE + path, {
